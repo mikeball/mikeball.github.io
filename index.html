@@ -11,6 +11,7 @@
 
 
 <style>
+	body {}
 	#video {float:left;}
 	#the-gyft {
 		float:left;
@@ -21,6 +22,7 @@
     	height:200px;
     	background-color:#000;
     	z-index:300000;
+    	display:none;
 	 }
 </style>
 
@@ -43,6 +45,15 @@ if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         video.play();
     });
 }
+
+
+
+function show_gyft() {
+    document.getElementById("the-gyft").style.display = 'block';
+}
+
+
+setTimeout(show_gyft, 2000)
 
 
 </script>

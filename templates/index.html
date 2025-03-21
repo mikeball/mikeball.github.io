@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock title %}
+
+{% block content %}
+
+<div class="cover">
+    <img src="/img/field-of-sunflowers.png?t=1" style="aspect-ratio: 1867/606; " width="1867" height="606">
+</div>
+
+<div class="about">
+    <div class="about_inner">
+        <p>Hello, I tackle hard problems using state of the art practices and tools.</p>
+        <p>Get in touch: mike [at] mikeball.dev</p>
+    </div>
+</div>
+
+
+<ul>
+    {% for page in section.pages %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}

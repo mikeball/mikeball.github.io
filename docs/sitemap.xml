@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap_style.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>/</loc>
+    </url>
+    <url>
+        <loc>/archive/</loc>
+    </url>
+    <url>
+        <loc>/blog/</loc>
+    </url>
+    <url>
+        <loc>/blog/hello/</loc>
+        <lastmod>2025-12-28</lastmod>
+    </url>
+    <url>
+        <loc>/blog/page/1/</loc>
+    </url>
+    <url>
+        <loc>/projects/</loc>
+    </url>
+    <url>
+        <loc>/projects/cool-project/</loc>
+    </url>
+    <url>
+        <loc>/tags/</loc>
+    </url>
+    <url>
+        <loc>/tags/meta/</loc>
+    </url>
+</urlset>
